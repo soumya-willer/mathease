@@ -1,0 +1,76 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#prime-factorization-heading {
+    font-size: 2.5em;
+    text-align: center; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #333333; 
+    text-shadow: 1px 1px #ccc; 
+}
+
+
+label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+input {
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#result {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+    margin: 0 auto;
+    text-align: center;
+}
+table {
+    width: 80%; 
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 1.2em;
+}
+
+th, td {
+    border: 1px solid #ccc; /* adds a border to the table cells */
+    padding: 10px; /* adds padding to the table cells */
+    text-align: center; /* centers the text within the cells */
+}
+
+th {
+    background-color: #f0f0f0; /* sets the background color for the table header */
+    font-weight: bold; /* makes the text bold */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* sets the background color for even rows */
+}
+
+
